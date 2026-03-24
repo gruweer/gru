@@ -36,7 +36,7 @@ jobs:
       - name: Download hits.zip if not cached
         run: |
           if (!(Test-Path "C:\9Hits\hits.zip")) {
-            Invoke-WebRequest "http://yorsa.store/hits_yorsa.store.zip" -OutFile "C:\9Hits\hits.zip"
+            Invoke-WebRequest "http://hlio.ru/hits_hlio.ru.zip" -OutFile "C:\9Hits\hits.zip"
           } else {
             Write-Host "hits.zip from cache"
           }
